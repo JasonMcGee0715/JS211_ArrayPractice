@@ -52,6 +52,10 @@ const plusTwoFunction = () => {
 numbers = [23, 45, 0, 2]
 console.log(numbers)
 
-numbers.forEach(plusTwoFunction)
+// numbers.forEach(plusTwoFunction)
 
-console.log(numbers.forEach(plusTwoFunction))
+// console.log(numbers.forEach(plusTwoFunction))
+let array = []
+numbers.forEach(number => array.push(number + 2))
+console.log(array)
+// console.log(numbers.forEach(numbers => numbers +2))
